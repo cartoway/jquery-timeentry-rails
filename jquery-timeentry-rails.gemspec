@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{A jQuery plugin that sets an input field up to pick a time value using a spinner.}
   gem.summary       = %q{A jQuery plugin that sets an input field up to pick a time value using a spinner.}
   gem.homepage      = "http://keith-wood.name/timeEntry.html"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
